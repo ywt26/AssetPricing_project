@@ -1,5 +1,3 @@
-README 
-============
 "imv" package
 ============
 ## Overview
