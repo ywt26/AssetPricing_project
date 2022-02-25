@@ -14,7 +14,7 @@
 Calculate implied volatility by dichotomy. If it is call, callornot = 0; if it is put, callornot = 1
 
 ### Motivation
-This package has been developed to illustrate the mechanism of pricing an option by long-short portfolio.
+This package has been developed to illustrate the mechanism of calculating implied volatility, and pricing an option using long-short portfolios and interpolation method, through decomposing cost into multiple "bricks".
 
 ### Usage
 
