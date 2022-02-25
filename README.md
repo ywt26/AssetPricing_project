@@ -85,3 +85,14 @@ bsm_binomial_montecarlo package
 This package has been developed to summarize three typical models/methods for option pricing. 
 
 ## Usage
+Add the “bsm_binomial_montecarlo” package to system path, and import two classes.
+
+```
+import os
+import sys
+sys.path.append('Your Path')
+from bsm_binomial_montecarlo import bbm
+```
+Input option dataset and enter one-dimension array(float) for each parameter, then call functions. see [bsm_binomial_montecarlo_test.py ](https://github.com/ywt26/AssetPricing_project/blob/main/bsm_binomial_montecarlo_test.py).
+
+
