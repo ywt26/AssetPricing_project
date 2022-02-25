@@ -13,7 +13,7 @@ This package has been developed to illustrate the mechanism of pricing an option
 ### Usage
 
 
-##"bsm_binomial_montecarlo" package
+## "bsm_binomial_montecarlo" package
 ### Overview
 
 ### Motivation
