@@ -1,15 +1,5 @@
-Contents  
+README 
 ============
-- ["imv" package]("imv"-package)  
-  - [Overview](#overview_imv)  
-  - [Motivation](#motivation)  
-  - [Usage](#usage) 
-- ["bsm_binomial_montecarlo" package](#"bsm_binomial_montecarlo"-package)  
-  - [Overview](#overview)  
-  - [Motivation](#motivation)  
-  - [Usage](#usage) 
-
-
 "imv" package
 ============
 ## Overview
