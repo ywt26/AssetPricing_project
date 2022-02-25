@@ -1,10 +1,10 @@
 Contents
 ============
-* [imv package](#imv_package)
+* [imv package](https://github.com/ywt26/AssetPricing_project/blob/main/imv.py)
   * Overview
   * Motivation
   * Usage
-* [bsm_binomial_montecarlo package](#bsm_binomial_montecarlo_package)
+* [bsm_binomial_montecarlo package](https://github.com/ywt26/AssetPricing_project/blob/main/bsm_binomial_montecarlo.py)
   * Overview
   * Motivation
   * Usage
