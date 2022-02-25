@@ -23,7 +23,7 @@ import sys
 sys.path.append('Your Path')
 from imv import optionpricing, interp_pricing
 ```
-Input option dataset, see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
+Input option dataset and call functions, see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
 
  "bsm_binomial_montecarlo" package
 ============
