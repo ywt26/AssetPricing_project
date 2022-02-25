@@ -28,6 +28,8 @@ Input option dataset and enter one-dimension array for each parameter, then call
 # Class
 Option(self, K, bid, ask, price, r, T)
 # Functions
+Option(self, K, bid, ask, price, r, T).putcallparity(c = False, p = False)
+'''
 
 ```
 see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
