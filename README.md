@@ -30,7 +30,11 @@ Option(self, K, bid, ask, price, r, T)
 
 # Functions
 Option(self, K, bid, ask, price, r, T).putcallparity(c = False, p = False)
-'''Parameters: if call and put prices are available, enter prices; otherwise, the default setting is to use bid-ask prices to calculate theoretical asset price.
+'''
+Parameters: 
+if call and put prices are available, enter prices; otherwise, 
+the default setting is to use bid-ask prices to calculate theoretical asset price.
+'''
 
 ```
 see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
