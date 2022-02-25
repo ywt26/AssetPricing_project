@@ -26,7 +26,7 @@ sys.path.append('Your Path')
 from imv import optionpricing, interp_pricing
 ```
 
-Input option dataset and enter one-dimension array(float) for each parameter, then call functions.
+Input option dataset and enter one-dimension array(float) for each parameter, then call functions.see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
 
 ```
 # Class
@@ -56,9 +56,10 @@ interp_pricing(self, S0, K, imv, r, T).moments(moment)
 interp_pricing(self, S0, K, imv, r, T).plots(plttype)
 # Parameters: plttype:'imv', generating two options implied volatility, both bisetion method and cubic spline method
 #                     'dist', generating gross return distribution (CDF)
-```   
-
-see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
+```  
+<div align=center>
+<img src="https://github.com/ywt26/AssetPricing_project/blob/main/plots_imv.png" width="360"><img src="https://github.com/ywt26/AssetPricing_project/blob/main/plots_dist.png" width="360">
+</div>
 
  "bsm_binomial_montecarlo" package
 ============
