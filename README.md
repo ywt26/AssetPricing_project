@@ -75,6 +75,11 @@ interp_pricing(self, S0, K, imv, r, T).plots(plttype)
 bsm_binomial_montecarlo package
 ============
 ## Overview
+[bsm_binomial_montecarlo](https://github.com/ywt26/AssetPricing_project/blob/main/imv.py)('bbm') is a package that provides three ways to price an option, including Black-Scholes-Merton Model `bsmvalue()`, Binomial Tree No-arbitrage Model `bivalue()` and Monte Carlo Simulation `mcvalue()`. Parameters can be flexibly set to price a __call/ put/ digital call/ digital put option__ in Binomial Tree No-arbitrage Model.
+
+* `bbm.bsmvalue()` calculates the option value using Black-Scholes-Merton Model
+* `Option.imv_bisection(callornot = 0, price_est = 0, top = .8, floor = .01)` calculates the implied volatility using bisection method; if it's a call option, set variable `callornot = 0`, if it's a put, `callornot = 1`
+* `Option.bsmvalue()` calculates call/put prices using BSM model, whose output is used in calculating the implied volatility  
 
 ## Motivation
 
