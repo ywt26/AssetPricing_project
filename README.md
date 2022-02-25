@@ -37,7 +37,7 @@ sys.path.append('Your Path')
 from imv import optionpricing, interp_pricing
 ```
 
-Input option dataset and enter one-dimension array(float) for each parameter, then call functions.see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
+Input option dataset and enter one-dimension array(float) for each parameter, then call functions. see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
 
 ```
 # Class
