@@ -1,5 +1,17 @@
-# README
-## "imv" package
+Contents  
+============
+- ["imv" package](#"imv"-package)  
+  - [Overview](#overview)  
+  - [Motivation](#motivation)  
+  - [Usage](#usage) 
+- ["bsm_binomial_montecarlo" package](#"bsm_binomial_montecarlo"-package)  
+  - [Overview](#overview)  
+  - [Motivation](#motivation)  
+  - [Usage](#usage) 
+
+
+"imv" package
+============
 ### Overview
 
 "imv" is a package that provides functions to price an option based on given parameters and long-short portfolio, graph the distribution and display higher order moments of option returns distribution. "imv" combines two classes, `Option()` and `interp_pricing()`. `Option()` helps to replace underlying asset price S0 with a theoretical price, then calculate option price with theoretical asset price. `interp_pricing()` applies cubic spline method to price an option, and derive higher order moments of option return.
@@ -23,7 +35,8 @@ sys.path.append('Your Path')
 from imv import optionpricing, interp_pricing
 ```
 
-## "bsm_binomial_montecarlo" package
+ "bsm_binomial_montecarlo" package
+============
 ### Overview
 
 ### Motivation
