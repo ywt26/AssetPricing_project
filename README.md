@@ -93,6 +93,6 @@ import sys
 sys.path.append('Your Path')
 from bsm_binomial_montecarlo import bbm
 ```
-Input option dataset and enter one-dimension array(float) for each parameter, then call functions. see [bsm_binomial_montecarlo_test.py ](https://github.com/ywt26/AssetPricing_project/blob/main/bsm_binomial_montecarlo_test.py).
+Input option dataset and enter one-dimension array(float) for each parameter, then call functions. see [bsm_binomial_montecarlo_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/bsm_binomial_montecarlo_test.py).
 
 
