@@ -82,5 +82,6 @@ bsm_binomial_montecarlo package
 * `bbm.bivalue(self, path = 10000, wholeyear = 256)`calculates the option value using Monte Carlo Simulation, variable `wholeyear` is the total number of trading days in a year, it usually takes __360__ or __256__ for simplicity.
 
 ## Motivation
+This package has been developed to summarize three typical models/methods for option pricing. 
 
 ## Usage
