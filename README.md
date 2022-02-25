@@ -94,5 +94,13 @@ sys.path.append('Your Path')
 from bsm_binomial_montecarlo import bbm
 ```
 Input option dataset and enter one-dimension array(float) for each parameter, then call functions. see [bsm_binomial_montecarlo_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/bsm_binomial_montecarlo_test.py).
-
+```
+# Class
+bbm(self, option_type, S0, K ,T ,r , sigma)
+```
+```
+bbm(self, option_type, S0, K ,T ,r , sigma).bsmvalue()
+bbm(self, option_type, S0, K ,T ,r , sigma).bivalue(digital_type = 0, step = 1)
+bbm(self, option_type, S0, K ,T ,r , sigma).mcvalue(path = 10000,wholeyear = 256)
+```
 
