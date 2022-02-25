@@ -16,27 +16,36 @@
 This package has been developed to illustrate the mechanism of calculating implied volatility, and pricing an option using long-short portfolios and interpolation method, through decomposing cost into multiple "bricks".
 
 ## Usage
+
 Add the “imv” package to system path, and import two classes.
+
 ```
 import os
 import sys
 sys.path.append('Your Path')
+
 from imv import optionpricing, interp_pricing
 ```
-Input option dataset and enter one-dimension array for each parameter, then call functions.
+
+Input option dataset and enter one-dimension array(float) for each parameter, then call functions.
+
 ```
 # Class
+
 Option(self, K, bid, ask, price, r, T)
-
-# Functions
-Option(self, K, bid, ask, price, r, T).putcallparity(c = False, p = False)
-'''
-Parameters: 
-if call and put prices are available, enter prices; otherwise, 
-the default setting is to use bid-ask prices to calculate theoretical asset price.
-'''
-
+interp_pricing(self, S0, K, imv, r, T)
 ```
+```
+# Functions
+
+theo_S0 = Option(self, K, bid, ask, price, r, T).putcallparity(c = False, p = False) 
+# Parameters: the default setting is to use bid-ask prices to replace call-put prices if they're not available
+# Returns: theoretical underlying asset pricing
+
+Option(self, K, bid, ask, price, r, T).imv_bisection(theo_S0, callornot = 0, price_est = 0, top = .8, floor = .01) # if it's a call option, set variable `callornot = 0`, if it's a put, `callornot = 1`
+
+```   
+
 see [imv_test.py](https://github.com/ywt26/AssetPricing_project/blob/main/imv_test.py).
 
  "bsm_binomial_montecarlo" package
