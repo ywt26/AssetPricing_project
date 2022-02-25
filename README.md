@@ -16,7 +16,12 @@
 This package has been developed to illustrate the mechanism of calculating implied volatility, and pricing an option using long-short portfolios and interpolation method, through decomposing cost into multiple "bricks".
 
 ### Usage
-
+```
+import os
+import sys
+sys.path.append('Your Path')
+from imv import optionpricing, interp_pricing
+```
 
 ## "bsm_binomial_montecarlo" package
 ### Overview
